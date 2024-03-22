@@ -1,5 +1,4 @@
-- class RockPaperScissors {
-+ export class RockPaperScissors {
+export class RockPaperScissors {
   constructor(username) {
     this.username = username;
     this.score = {
