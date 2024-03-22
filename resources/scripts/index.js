@@ -1,4 +1,4 @@
-+ import { RockPaperScissors } from './rock_paper_scissors.js';
+import { RockPaperScissors } from './rock_paper_scissors.js';
 // Elements
 const welcomeScreen = document.getElementById(`welcome-screen`);
 const gameScreen = document.getElementById(`game-screen`);
@@ -13,7 +13,6 @@ const resetGameButton = document.getElementById(`reset-game-button`);
 // instantiate the game object from the `RockPaperScissors` class.
 let game;
 let username;
-let RockPaperScissors;
 
 // hide gamescreen
 gameScreen.classList.add(`d-none`);
